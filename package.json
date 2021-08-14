@@ -1,0 +1,43 @@
+{
+    "private": true,
+    "name": "rajdeep.ml-blog",
+    "author": "Rajdeep Malakar <rajdeep@zype.cf> (https://rajdeep.ml)",
+    "license": "0BSD",
+    "scripts": {
+        "build": "gatsby build",
+        "clean": "gatsby clean",
+        "dev": "gatsby develop",
+        "serve": "gatsby serve",
+        "gt": "gatsby"
+    },
+    "dependencies": {
+        "@deckdeckgo/highlight-code": "^3.3.1",
+        "@jlengstorf/get-share-image": "^0.8.0",
+        "@mdx-js/mdx": "latest",
+        "@mdx-js/react": "latest",
+        "classnames": "latest",
+        "gatsby": "latest",
+        "gatsby-image": "latest",
+        "gatsby-plugin-image": "latest",
+        "gatsby-plugin-mdx": "latest",
+        "gatsby-plugin-postcss": "latest",
+        "gatsby-plugin-react-helmet": "latest",
+        "gatsby-plugin-react-svg": "latest",
+        "gatsby-plugin-sharp": "latest",
+        "gatsby-plugin-sitemap": "^4.7.0",
+        "gatsby-remark-highlight-code": "^3.0.1",
+        "gatsby-source-graphcms": "latest",
+        "gatsby-transformer-remark": "^4.8.0",
+        "gatsby-transformer-sharp": "latest",
+        "react": "latest",
+        "react-dom": "latest",
+        "react-helmet": "latest",
+        "react-transition-group": "latest"
+    },
+    "devDependencies": {
+        "@tailwindcss/typography": "latest",
+        "@tailwindcss/ui": "latest",
+        "postcss-preset-env": "latest",
+        "tailwindcss": "latest"
+    }
+}

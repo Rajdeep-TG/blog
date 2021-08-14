@@ -41,6 +41,7 @@ function Seo({ title, seo }) {
       titleTemplate={`%s | ${defaultTitle}`}
     >
       <title>{pageTitle}</title>
+      <link rel="icon" href="https://res.cloudinary.com/zype/image/upload/w_16,h_16/CodeWithR/logo" type="image/png" />
       <meta name="description" content={pageDescription} />
       <meta name="keywords" content={pageKeywords} />
       <meta property="image" content={getCoverImage(seo?.title || title || 'Home')} />

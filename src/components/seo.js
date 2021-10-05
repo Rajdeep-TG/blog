@@ -1,10 +1,10 @@
 import React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
 import { Helmet } from 'react-helmet'
-import getShareImage from '@jlengstorf/get-share-image';
+import ShareImage from 'shareimage';
 
 function getCoverImage(title) {
-  return getShareImage({
+  return ShareImage({
     title: title,
     cloudName: 'zype',
     imagePublicID: 'CodeWithR/TEMPLATE',

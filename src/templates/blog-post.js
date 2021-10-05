@@ -2,10 +2,10 @@ import React from 'react'
 import { graphql, Link } from 'gatsby'
 import Img from 'gatsby-image'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
-import getShareImage from '@jlengstorf/get-share-image';
+import ShareImage from 'shareimage';
 
 function getCoverImage(title) {
-  return getShareImage({
+  return ShareImage({
     title: title,
     cloudName: 'zype',
     imagePublicID: 'CodeWithR/TEMPLATE',

@@ -12,7 +12,6 @@
     },
     "dependencies": {
         "@deckdeckgo/highlight-code": "^3.3.1",
-        "@jlengstorf/get-share-image": "^0.8.0",
         "@mdx-js/mdx": "latest",
         "@mdx-js/react": "latest",
         "classnames": "latest",
@@ -32,7 +31,8 @@
         "react": "latest",
         "react-dom": "latest",
         "react-helmet": "latest",
-        "react-transition-group": "latest"
+        "react-transition-group": "latest",
+        "shareimage": "^1.4.6"
     },
     "devDependencies": {
         "@tailwindcss/typography": "latest",

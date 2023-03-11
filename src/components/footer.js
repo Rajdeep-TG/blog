@@ -2,6 +2,7 @@ import React from 'react'
 
 import GitHubSVG from '../svg/github.svg'
 import TwitterSVG from '../svg/twitter.svg'
+import MastodonSVG from '../svg/nastodon.svg'
 
 const socialLinks = [
   {
@@ -35,6 +36,17 @@ function Footer() {
               </a>
             </li>
           ))}
+          <li key={socialLinks.length + 1}>
+          <a
+                href="https://fosstodon.org/@RajdeepXPro"
+                target="_blank"
+                className="block text-gray-300 hover:text-white p-1 text-sm"
+                rel="noopener noreferrer me"
+                title="Fosstodon"
+              >
+                <MastodonSVG className="h-6 w-6" />
+              </a>
+          </li>
         </ul>
       </div>
     </footer>
